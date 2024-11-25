@@ -11,7 +11,7 @@ export default function Technology() {
   const DESKTOP_WIDTH = 1440
 
   return (
-    <main className="h-screen bg-technology bg-no-repeat bg-cover bg-fixed mobile pt-24 text-white overflow-scroll">
+    <main className="h-screen bg-technology bg-no-repeat bg-cover bg-fixed mobile pt-24 text-white">
       <TitlePages title="space launch 101" numberPage="03" styles="md:mt-8 1xl:mt-24 pl-10 1xl:pl-36" />
 
       <div className="w-full max-w-lg md:max-w-4xl mx-auto 1xl:mx-0 1xl:mb-auto 1xl:ml-auto 1xl:mr-0 mt-16 1xl:min-w-[1275px] 1xl:w-full 1xl:flex 1xl:items-center 1xl:gap-10">
