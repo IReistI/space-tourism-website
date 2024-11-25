@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-home {
+    @apply bg-home-mobile;
+    @apply md:bg-home-tablet;
+    @apply 1xl:bg-home-desktop;
+}
+.bg-destination {
+    @apply bg-destination-mobile;
+    @apply md:bg-destination-tablet;
+    @apply 1xl:bg-destination-desktop;
+}
+.bg-crew {
+    @apply bg-crew-mobile;
+    @apply md:bg-crew-tablet;
+    @apply 1xl:bg-crew-desktop;
+}
+.bg-technology {
+    @apply bg-technology-mobile;
+    @apply md:bg-technology-tablet;
+    @apply 1xl:bg-technology-desktop;
+}
+
+@layer utilities {
+    @media (max-width: 768px), (min-width: 1440px) {
+      .mask-image-fade {
+        -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 100%);
+        -webkit-mask-size: 100% 100%;
+        mask-size: 100% 100%;
+      }
+    }
+  }
+  
+
