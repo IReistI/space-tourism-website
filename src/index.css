@@ -3,6 +3,60 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'Barlow Regular';
+  src: url('./assets/fonts/subset-barlow-Regular.woff2') format('woff2'),
+       url('./assets/fonts/subset-barlow-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bellefair';
+  src: url('./assets/fonts/subset-Bellefair-Regular.woff2') format('woff2'),
+       url('./assets/fonts/subset-Bellefair-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('./assets/fonts/subset-BarlowCondensed-Regular.woff2') format('woff2'),
+       url('./assets/fonts/subset-BarlowCondensed-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('./assets/fonts/subset-BarlowCondensed-Bold.woff2') format('woff2'),
+       url('./assets/fonts/subset-BarlowCondensed-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('./assets/fonts/subset-BarlowCondensed-Medium.woff2') format('woff2'),
+       url('./assets/fonts/subset-BarlowCondensed-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('./assets/fonts/subset-BarlowCondensed-ExtraLight.woff2') format('woff2'),
+       url('./assets/fonts/subset-BarlowCondensed-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
 .bg-home {
     @apply bg-home-mobile;
     @apply md:bg-home-tablet;
