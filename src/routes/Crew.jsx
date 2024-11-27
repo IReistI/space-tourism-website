@@ -9,7 +9,7 @@ export default function Crew() {
   const [currentCrew, setCurrentCrew] = useState(crew[0])
   
   return (
-    <main className="h-screen bg-crew bg-no-repeat bg-cover bg-fixed mobile px-6 md:px-10 pt-24 text-white overflow-scroll">
+    <main className="h-screen bg-crew bg-no-repeat bg-cover bg-fixed mobile px-6 md:px-10 pt-24 text-white">
       <TitlePages title="meet your crew" numberPage="02" styles="md:mt-8 1xl:mt-24 1xl:max-w-[80%] md:mx-auto" />
 
       <div className="flex w-full md:max-w-[80%] md:mx-auto flex-col 1xl:md:flex-row mt-12 1xl:mt-16">
